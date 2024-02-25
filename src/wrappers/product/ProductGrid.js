@@ -6,7 +6,6 @@ import ProductGridSingle from "../../components/product/ProductGridSingle";
 
 const ProductGrid = ({ spaceBottomClass, category, type, limit }) => {
   const { products } = useSelector((state) => state.product);
-  const currency = useSelector((state) => state.currency);
   const { cartItems } = useSelector((state) => state.cart);
   const { wishlistItems } = useSelector((state) => state.wishlist);
   const { compareItems } = useSelector((state) => state.compare);
@@ -20,7 +19,6 @@ const ProductGrid = ({ spaceBottomClass, category, type, limit }) => {
             <ProductGridSingle
               spaceBottomClass={spaceBottomClass}
               product={product}
-              currency={currency}
               cartItem={cartItems.find(
                 (cartItem) => cartItem.id === product.id
               )}

@@ -11,7 +11,6 @@ import { addToWishlist } from "../../store/slices/wishlist-slice";
 
 const ProductGridSingle = ({
   product,
-  currency,
   cartItem,
   wishlistItem,
   compareItem,
@@ -147,7 +146,6 @@ const ProductGridSingle = ({
         show={modalShow}
         onHide={() => setModalShow(false)}
         product={product}
-        currency={currency}
         discountedPrice={discountedPrice}
         finalProductPrice={finalProductPrice}
         finalDiscountedPrice={finalDiscountedPrice}
@@ -162,7 +160,6 @@ ProductGridSingle.propTypes = {
   cartItem: PropTypes.shape({}),
   compareItem: PropTypes.shape({}),
   wishlistItem: PropTypes.shape({}),
-  currency: PropTypes.shape({}),
   product: PropTypes.shape({}),
   sliderClassName: PropTypes.string,
   spaceBottomClass: PropTypes.string,
