@@ -11,7 +11,6 @@ import { addToCompare } from "../../store/slices/compare-slice";
 const ProductDescriptionInfo = ({
   product,
   discountedPrice,
-  currency,
   finalDiscountedPrice,
   finalProductPrice,
   cartItems,
@@ -43,13 +42,11 @@ const ProductDescriptionInfo = ({
       <div className="product-details-price">
         {discountedPrice !== null ? (
           <Fragment>
-            <span>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
-            <span className="old">
-              {currency.currencySymbol + finalProductPrice}
-            </span>
+            <span>{"$" + finalDiscountedPrice}</span>{" "}
+            <span className="old">{"$" + finalProductPrice}</span>
           </Fragment>
         ) : (
-          <span>{currency.currencySymbol + finalProductPrice} </span>
+          <span>{"$" + finalProductPrice} </span>
         )}
       </div>
       {product.rating && product.rating > 0 ? (
@@ -100,7 +97,7 @@ const ProductDescriptionInfo = ({
             <span>Size</span>
             <div className="pro-details-size-content">
               {product.variation &&
-                product.variation.map(single => {
+                product.variation.map((single) => {
                   return single.color === selectedProductColor
                     ? single.size.map((singleSize, key) => {
                         return (
@@ -180,12 +177,22 @@ const ProductDescriptionInfo = ({
             {productStock && productStock > 0 ? (
               <button
                 onClick={() =>
-                  dispatch(addToCart({
-                    ...product,
-                    quantity: quantityCount,
-                    selectedProductColor: selectedProductColor ? selectedProductColor : product.selectedProductColor ? product.selectedProductColor : null,
-                    selectedProductSize: selectedProductSize ? selectedProductSize : product.selectedProductSize ? product.selectedProductSize : null
-                  }))
+                  dispatch(
+                    addToCart({
+                      ...product,
+                      quantity: quantityCount,
+                      selectedProductColor: selectedProductColor
+                        ? selectedProductColor
+                        : product.selectedProductColor
+                        ? product.selectedProductColor
+                        : null,
+                      selectedProductSize: selectedProductSize
+                        ? selectedProductSize
+                        : product.selectedProductSize
+                        ? product.selectedProductSize
+                        : null,
+                    })
+                  )
                 }
                 disabled={productCartQty >= productStock}
               >
@@ -299,12 +306,11 @@ const ProductDescriptionInfo = ({
 ProductDescriptionInfo.propTypes = {
   cartItems: PropTypes.array,
   compareItem: PropTypes.shape({}),
-  currency: PropTypes.shape({}),
   discountedPrice: PropTypes.number,
   finalDiscountedPrice: PropTypes.number,
   finalProductPrice: PropTypes.number,
   product: PropTypes.shape({}),
-  wishlistItem: PropTypes.shape({})
+  wishlistItem: PropTypes.shape({}),
 };
 
 export default ProductDescriptionInfo;

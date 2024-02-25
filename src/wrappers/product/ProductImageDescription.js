@@ -13,18 +13,15 @@ const ProductImageDescription = ({
   galleryType,
   product,
 }) => {
-  const currency = useSelector((state) => state.currency);
   const { cartItems } = useSelector((state) => state.cart);
   const { wishlistItems } = useSelector((state) => state.wishlist);
   const { compareItems } = useSelector((state) => state.compare);
   const wishlistItem = wishlistItems.find((item) => item.id === product.id);
   const compareItem = compareItems.find((item) => item.id === product.id);
 
-  const discountedPrice = getDiscountPrice(product.price, product.discount);
-  const finalProductPrice = +(product.price * currency.currencyRate).toFixed(2);
-  const finalDiscountedPrice = +(
-    discountedPrice * currency.currencyRate
-  ).toFixed(2);
+  const discountedPrice = getDiscountPrice(product.price);
+  const finalProductPrice = +product.price;
+  const finalDiscountedPrice = product.price;
 
   return (
     <div className={clsx("shop-area", spaceTopClass, spaceBottomClass)}>
@@ -50,7 +47,6 @@ const ProductImageDescription = ({
             <ProductDescriptionInfo
               product={product}
               discountedPrice={discountedPrice}
-              currency={currency}
               finalDiscountedPrice={finalDiscountedPrice}
               finalProductPrice={finalProductPrice}
               cartItems={cartItems}

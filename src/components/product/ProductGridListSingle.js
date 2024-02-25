@@ -134,11 +134,11 @@ const ProductGridListSingle = ({
           <div className="product-price">
             {discountedPrice !== null ? (
               <Fragment>
-                <span>{"$" + finalDiscountedPrice}</span>{" "}
-                <span className="old">{"$" + finalProductPrice}</span>
+                <span>{"banana" + finalDiscountedPrice}</span>{" "}
+                <span className="old">{"banana" + finalProductPrice}</span>
               </Fragment>
             ) : (
-              <span>{"$" + finalProductPrice} </span>
+              <span>{"banana" + finalProductPrice} </span>
             )}
           </div>
         </div>
@@ -189,11 +189,11 @@ const ProductGridListSingle = ({
               <div className="product-list-price">
                 {discountedPrice !== null ? (
                   <Fragment>
-                    <span>{"$" + finalDiscountedPrice}</span>{" "}
-                    <span className="old">{"$" + finalProductPrice}</span>
+                    <span>{"banana" + finalDiscountedPrice}</span>{" "}
+                    <span className="old">{"banana" + finalProductPrice}</span>
                   </Fragment>
                 ) : (
-                  <span>{"$" + finalProductPrice} </span>
+                  <span>{"banana" + finalProductPrice} </span>
                 )}
               </div>
               {product.rating && product.rating > 0 ? (
