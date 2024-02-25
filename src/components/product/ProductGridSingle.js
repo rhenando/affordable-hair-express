@@ -15,7 +15,7 @@ const ProductGridSingle = ({
   cartItem,
   wishlistItem,
   compareItem,
-  spaceBottomClass
+  spaceBottomClass,
 }) => {
   const [modalShow, setModalShow] = useState(false);
   const discountedPrice = getDiscountPrice(product.price, product.discount);
@@ -135,13 +135,11 @@ const ProductGridSingle = ({
           <div className="product-price">
             {discountedPrice !== null ? (
               <Fragment>
-                <span>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
-                <span className="old">
-                  {currency.currencySymbol + finalProductPrice}
-                </span>
+                <span>{"$" + finalDiscountedPrice}</span>{" "}
+                <span className="old">{"$" + finalProductPrice}</span>
               </Fragment>
             ) : (
-              <span>{currency.currencySymbol + finalProductPrice} </span>
+              <span>{"$" + finalProductPrice} </span>
             )}
           </div>
         </div>
