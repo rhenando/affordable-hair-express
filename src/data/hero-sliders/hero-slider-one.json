@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Bundles Collection",
+    "subtitle": "Body Wave Bundle",
+    "image": "/assets/img/slider/single-slide-hm1-2.png",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 2,
+    "title": "Closures Collection",
+    "subtitle": "Body Wave Closures",
+    "image": "/assets/img/slider/single-slide-hm2-2.png",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 3,
+    "title": "Frontals Collection",
+    "subtitle": "Loose Wave Frontals",
+    "image": "/assets/img/slider/single-slide-hm3-2.png",
+    "url": "/shop-grid-standard"
+  }
+]

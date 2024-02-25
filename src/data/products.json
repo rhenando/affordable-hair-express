@@ -1,0 +1,308 @@
+[
+  {
+    "id": "1",
+    "sku": "SKU-130000",
+    "name": "Loose Wave Hair Bundles",
+    "price": 80,
+    "discount": 0,
+    "offerEnd": "October 5, 2024 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["fashion", "men"],
+    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "variation": [
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "16''",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/product/fashion/bundles/Loose_Wave_Hair_Bundles.png",
+      "/assets/img/product/fashion/bundles/Loose_Wave_Hair_Bundles.png",
+      "/assets/img/product/fashion/bundles/Loose_Wave_Hair_Bundles.png",
+      "/assets/img/product/fashion/bundles/Loose_Wave_Hair_Bundles.png",
+      "/assets/img/product/fashion/bundles/Loose_Wave_Hair_Bundles.png"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+  },
+  {
+    "id": "2",
+    "sku": "SKU-110000",
+    "name": "Straight Hair Bundles",
+    "price": 80,
+    "discount": 0,
+    "offerEnd": "October 5, 2024 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["fashion", "men"],
+    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "variation": [
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "16''",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/product/fashion/bundles/Straight_Hair_Bundles.jpg",
+      "/assets/img/product/fashion/bundles/Straight_Hair_Bundles.jpg",
+      "/assets/img/product/fashion/bundles/Straight_Hair_Bundles.jpg",
+      "/assets/img/product/fashion/bundles/Straight_Hair_Bundles.jpg",
+      "/assets/img/product/fashion/bundles/Straight_Hair_Bundles.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+  },
+  {
+    "id": "3",
+    "sku": "SKU-120000",
+    "name": "Deep Wave Hair Bundles",
+    "price": 80,
+    "discount": 0,
+    "offerEnd": "October 5, 2024 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["fashion", "men"],
+    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "variation": [
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "16''",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/product/fashion/bundles/Deep_Wave_Hair_Bundles.jpg",
+      "/assets/img/product/fashion/bundles/Deep_Wave_Hair_Bundles.jpg",
+      "/assets/img/product/fashion/bundles/Deep_Wave_Hair_Bundles.jpg",
+      "/assets/img/product/fashion/bundles/Deep_Wave_Hair_Bundles.jpg",
+      "/assets/img/product/fashion/bundles/Deep_Wave_Hair_Bundles.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+  },
+  {
+    "id": "4",
+    "sku": "SKU-XXXX",
+    "name": "Body Wave Hair Bundles",
+    "price": 80,
+    "discount": 0,
+    "offerEnd": "October 5, 2024 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["fashion", "men"],
+    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "variation": [
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "16''",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/product/fashion/bundles/Body_Wave_Bundles.jpg",
+      "/assets/img/product/fashion/bundles/Body_Wave_Bundles.jpg",
+      "/assets/img/product/fashion/bundles/Body_Wave_Bundles.jpg",
+      "/assets/img/product/fashion/bundles/Body_Wave_Bundles.jpg",
+      "/assets/img/product/fashion/bundles/Body_Wave_Bundles.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+  },
+  {
+    "id": "5",
+    "sku": "SKU-180001",
+    "name": "Body Wave Frontal",
+    "price": 115,
+    "discount": 0,
+    "offerEnd": "October 5, 2024 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["fashion", "men"],
+    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "variation": [
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "18''",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/product/fashion/frontals/Body_Wave_Frontal.jpg",
+      "/assets/img/product/fashion/frontals/Body_Wave_Frontal.jpg",
+      "/assets/img/product/fashion/frontals/Body_Wave_Frontal.jpg",
+      "/assets/img/product/fashion/frontals/Body_Wave_Frontal.jpg",
+      "/assets/img/product/fashion/frontals/Body_Wave_Frontal.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+  },
+  {
+    "id": "6",
+    "sku": "SKU-200001",
+    "name": "Loose Wave Frontal",
+    "price": 115,
+    "discount": 0,
+    "offerEnd": "October 5, 2024 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["fashion", "men"],
+    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "variation": [
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "18''",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/product/fashion/frontals/Loose_Wave_Frontal.jpg",
+      "/assets/img/product/fashion/frontals/Loose_Wave_Frontal.jpg",
+      "/assets/img/product/fashion/frontals/Loose_Wave_Frontal.jpg",
+      "/assets/img/product/fashion/frontals/Loose_Wave_Frontal.jpg",
+      "/assets/img/product/fashion/frontals/Loose_Wave_Frontal.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+  },
+  {
+    "id": "7",
+    "sku": "SKU-210001",
+    "name": "Deep Wave Frontal",
+    "price": 115,
+    "discount": 0,
+    "offerEnd": "October 5, 2024 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["fashion", "men"],
+    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "variation": [
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "18''",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/product/fashion/frontals/Deep_Wave_Frontal.jpg",
+      "/assets/img/product/fashion/frontals/Deep_Wave_Frontal.jpg",
+      "/assets/img/product/fashion/frontals/Deep_Wave_Frontal.jpg",
+      "/assets/img/product/fashion/frontals/Deep_Wave_Frontal.jpg",
+      "/assets/img/product/fashion/frontals/Deep_Wave_Frontal.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+  },
+  {
+    "id": "8",
+    "sku": "SKU-210001",
+    "name": "Body Wave Hair Closue",
+    "price": 85,
+    "discount": 0,
+    "offerEnd": "October 5, 2024 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["fashion", "men"],
+    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "variation": [
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "18''",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/product/fashion/closures/Body_Wave_Hair_Closures.jpg",
+      "/assets/img/product/fashion/closures/Body_Wave_Hair_Closures.jpg",
+      "/assets/img/product/fashion/closures/Body_Wave_Hair_Closures.jpg",
+      "/assets/img/product/fashion/closures/Body_Wave_Hair_Closures.jpg",
+      "/assets/img/product/fashion/closures/Body_Wave_Hair_Closures.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+  },
+  {
+    "id": "9",
+    "sku": "SKU-210001",
+    "name": "Straight Hair Closue",
+    "price": 85,
+    "discount": 0,
+    "offerEnd": "October 5, 2024 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["fashion", "men"],
+    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "variation": [
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "18''",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/product/fashion/closures/Straight_Hair_Closures.jpg",
+      "/assets/img/product/fashion/closures/Straight_Hair_Closures.jpg",
+      "/assets/img/product/fashion/closures/Straight_Hair_Closures.jpg",
+      "/assets/img/product/fashion/closures/Straight_Hair_Closures.jpg",
+      "/assets/img/product/fashion/closures/Straight_Hair_Closures.jpg"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+  }
+]
