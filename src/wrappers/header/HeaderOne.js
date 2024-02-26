@@ -45,11 +45,7 @@ const HeaderOne = ({
           top === "visible" ? "d-none d-lg-block" : "d-none",
           borderStyle === "fluid-border" && "border-none"
         )}
-      >
-        <div className={layout === "container-fluid" ? layout : "container"}>
-          {/* header top */}
-        </div>
-      </div>
+      ></div>
 
       <div
         className={clsx(
