@@ -5,7 +5,7 @@ import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import RelatedProductSlider from "../../wrappers/product/RelatedProductSlider";
-import ProductDescriptionTab from "../../wrappers/product/ProductDescriptionTab";
+// import ProductDescriptionTab from "../../wrappers/product/ProductDescriptionTab";
 import ProductImageDescription from "../../wrappers/product/ProductImageDescription";
 
 const Product = () => {
@@ -23,7 +23,7 @@ const Product = () => {
         <Breadcrumb
           pages={[
             { label: "Home", path: process.env.PUBLIC_URL + "/" },
-            { label: "Shop Product", path: process.env.PUBLIC_URL + pathname },
+            { label: "Our Product", path: process.env.PUBLIC_URL + pathname },
           ]}
         />
 
@@ -35,10 +35,11 @@ const Product = () => {
         />
 
         {/* product description tab */}
-        <ProductDescriptionTab
+
+        {/* <ProductDescriptionTab
           spaceBottomClass="pb-90"
           productFullDesc={product.fullDescription}
-        />
+        /> */}
 
         {/* related product slider */}
         <RelatedProductSlider
