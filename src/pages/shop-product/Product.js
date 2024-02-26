@@ -41,7 +41,7 @@ const Product = () => {
           productFullDesc={product.fullDescription}
         /> */}
 
-        {/* related product slider */}
+        {/* Product Comparison */}
         <RelatedProductSlider
           spaceBottomClass="pb-95"
           category={product.category[0]}

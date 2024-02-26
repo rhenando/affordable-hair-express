@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import React, { Fragment, useState } from "react";
-import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { getProductCartQuantity } from "../../helpers/product";
 import Rating from "./sub-components/ProductRating";
 import { addToCart } from "../../store/slices/cart-slice";
 import { addToWishlist } from "../../store/slices/wishlist-slice";
 import { addToCompare } from "../../store/slices/compare-slice";
+import SectionTitle from "../../components/section-title/SectionTitle";
 
 const ProductDescriptionInfo = ({
   product,
@@ -58,10 +58,6 @@ const ProductDescriptionInfo = ({
       ) : (
         ""
       )}
-      <div className="pro-details-list">
-        <p>{product.shortDescription}</p>
-      </div>
-
       {product.variation ? (
         <div className="pro-details-size-color">
           <div className="pro-details-color-wrap">
@@ -233,69 +229,62 @@ const ProductDescriptionInfo = ({
           </div>
         </div>
       )}
-      {product.category ? (
-        <div className="pro-details-meta">
-          <span>Categories :</span>
-          <ul>
-            {product.category.map((single, key) => {
-              return (
-                <li key={key}>
-                  <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                    {single}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      ) : (
-        ""
-      )}
-      {product.tag ? (
-        <div className="pro-details-meta">
-          <span>Tags :</span>
-          <ul>
-            {product.tag.map((single, key) => {
-              return (
-                <li key={key}>
-                  <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                    {single}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      ) : (
-        ""
-      )}
+
+      <div className="pro-details-list">{/* Product Comparison */}</div>
 
       <div className="pro-details-social">
+        <SectionTitle
+          titleText="Products Comparison"
+          positionClass="text-center"
+          spaceClass="mb-50"
+        />
         <ul>
           <li>
-            <a href="//facebook.com">
-              <i className="fa fa-facebook" />
-            </a>
+            <h5>Virgin Brazilian Body Wave Bundle</h5>
+            <h4>$99</h4>
+            <img
+              src="https://truegloryhair.com/cdn/shop/products/0H5A0401_dfd280e7-02bf-40e2-be76-2cf035dee695.jpg?crop=center&height=1650&v=1702336873&width=1100"
+              alt="test"
+              className="img"
+              width={100}
+              height={100}
+            />
           </li>
           <li>
-            <a href="//dribbble.com">
-              <i className="fa fa-dribbble" />
-            </a>
+            <h5>Virgin Hair Body Wave Bundle</h5>
+            <h4>$100.52</h4>
+            <img
+              src="https://cdn.wigginshair.com/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/1/_/1_body_wave.jpg"
+              alt="test"
+              className="img"
+              width={100}
+              height={100}
+            />
           </li>
           <li>
-            <a href="//pinterest.com">
-              <i className="fa fa-pinterest-p" />
-            </a>
+            <h5>UNice Hair Bundle Body Wave Human Weave Hair</h5>
+            <h4>$87.80</h4>
+            <img
+              src="https://media.unice.com/ol/media/20231025/a22ff3b51b2711581bc2227d35edeb9c.png?im=Resize,width=694,height=925"
+              alt="test"
+              className="img"
+              width={100}
+              height={100}
+            />
           </li>
           <li>
-            <a href="//twitter.com">
-              <i className="fa fa-twitter" />
-            </a>
-          </li>
-          <li>
-            <a href="//linkedin.com">
-              <i className="fa fa-linkedin" />
-            </a>
+            <h5>
+              ISEE HAIR 14A Grade 100% Human Virgin Hair Body Wave Bundles with
+              Closure Deal
+            </h5>
+            <h4>$156.00</h4>
+            <img
+              src="https://cdn.iseehair.com/media/catalog/product/8/0/800_2_1_.jpg"
+              alt="test"
+              className="img"
+              width={100}
+              height={100}
+            />
           </li>
         </ul>
       </div>
