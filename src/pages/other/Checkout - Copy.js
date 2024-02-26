@@ -140,7 +140,6 @@ const Checkout = () => {
                                 cartItem.price,
                                 cartItem.discount
                               );
-
                               const finalProductPrice =
                                 cartItem.price.toFixed(2);
                               const finalDiscountedPrice =
