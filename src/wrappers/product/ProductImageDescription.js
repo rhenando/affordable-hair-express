@@ -20,7 +20,7 @@ const ProductImageDescription = ({
   const compareItem = compareItems.find((item) => item.id === product.id);
 
   const discountedPrice = getDiscountPrice(product.price);
-  const finalProductPrice = +product.price;
+  const finalProductPrice = product.price;
   const finalDiscountedPrice = product.price;
 
   return (
