@@ -12,7 +12,6 @@ import { addToCompare } from "../../store/slices/compare-slice";
 
 const ProductGridListSingle = ({
   product,
-  currency,
   cartItem,
   wishlistItem,
   compareItem,
@@ -134,11 +133,11 @@ const ProductGridListSingle = ({
           <div className="product-price">
             {discountedPrice !== null ? (
               <Fragment>
-                <span>{"banana" + finalDiscountedPrice}</span>{" "}
-                <span className="old">{"banana" + finalProductPrice}</span>
+                <span>{"$" + finalDiscountedPrice}</span>{" "}
+                <span className="old">{"$" + finalProductPrice}</span>
               </Fragment>
             ) : (
-              <span>{"banana" + finalProductPrice} </span>
+              <span>{"$" + finalProductPrice} </span>
             )}
           </div>
         </div>
@@ -189,11 +188,11 @@ const ProductGridListSingle = ({
               <div className="product-list-price">
                 {discountedPrice !== null ? (
                   <Fragment>
-                    <span>{"banana" + finalDiscountedPrice}</span>{" "}
-                    <span className="old">{"banana" + finalProductPrice}</span>
+                    <span>{"$" + finalDiscountedPrice}</span>{" "}
+                    <span className="old">{"$" + finalProductPrice}</span>
                   </Fragment>
                 ) : (
-                  <span>{"banana" + finalProductPrice} </span>
+                  <span>{"$" + finalProductPrice} </span>
                 )}
               </div>
               {product.rating && product.rating > 0 ? (
