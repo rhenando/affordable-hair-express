@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { getDiscountPrice } from "../../helpers/product";
 import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
@@ -136,37 +135,21 @@ const Checkout = () => {
                         <div className="your-order-middle">
                           <ul>
                             {cartItems.map((cartItem, key) => {
-                              const discountedPrice = getDiscountPrice(
-                                cartItem.price,
-                                cartItem.discount
-                              );
+                              const totalPrice =
+                                cartItem.price * cartItem.quantity;
 
-                              const finalProductPrice =
-                                cartItem.price.toFixed(2);
-                              const finalDiscountedPrice =
-                                cartItem.price.toFixed(2);
+                              const priceWithVat = (9 * totalPrice) / 100;
 
-                              discountedPrice != null
-                                ? (cartTotalPrice +=
-                                    cartItem.price * cartItem.quantity)
-                                : (cartTotalPrice +=
-                                    cartItem.price * cartItem.quantity);
+                              priceWithVat != null
+                                ? (cartTotalPrice += priceWithVat + totalPrice)
+                                : (cartTotalPrice += priceWithVat + totalPrice);
                               return (
                                 <li key={key}>
                                   <span className="order-middle-left">
                                     {cartItem.name} X {cartItem.quantity}
                                   </span>{" "}
                                   <span className="order-price">
-                                    {discountedPrice !== null
-                                      ? "$" +
-                                        (
-                                          finalDiscountedPrice *
-                                          cartItem.quantity
-                                        ).toFixed(2)
-                                      : "$" +
-                                        (
-                                          finalProductPrice * cartItem.quantity
-                                        ).toFixed(2)}
+                                    ${totalPrice.toFixed(2)}
                                   </span>
                                 </li>
                               );
@@ -177,7 +160,7 @@ const Checkout = () => {
                           <ul>
                             <li className="your-order-shipping">Tax</li>
                             <li>
-                              <li>{"4%"}</li>
+                              <li>9%</li>
                             </li>
                           </ul>
                         </div>
