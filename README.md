@@ -1,4 +1,1 @@
-cart
-checkout
-vat
-about us
+Affordable Hair Express
